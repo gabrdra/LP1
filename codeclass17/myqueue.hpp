@@ -30,11 +30,6 @@ public:
     }
     void push(Q element)
     {
-        //if (!(this->top == this->size-1))
-        //{
-        //    this->top++;
-        //    this->queue[top] = element;
-        //}
         if(this->top == this->size-1)
         {
             std::cout << "Queue is full" << std::endl;
